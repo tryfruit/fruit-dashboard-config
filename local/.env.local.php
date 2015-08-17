@@ -42,6 +42,13 @@ return array(
     'STRIPE_SECRET_KEY'       => 'your-stripe-api-secret-key',
     'STRIPE_CLIENT_ID'        => 'your-stripe-client-ID',
 
+    /* Twitter Oauth connection */
+    'TWITTER_CONSUMER_KEY'      => 'your-twitter-consumer-key-here',
+    'TWITTER_CONSUMER_SECRET'   => 'your-twitter-consumer-secret-here',
+
+    /* Google Oauth connection */
+    'GOOGLE_SECRET_JSON'    => 'app/config/local/client_secret.json',
+
     /* Quote widget | Quote feed */
     'QUOTE_FEED_CONNECT_URI'                        => 'http://spreadsheets.google.com/feeds/list/',
     'QUOTE_FEED_SPREADSHEET_EN_INSPIRATIONAL_URI'   => '<spreadsheet-token>/<worksheet-id>/public/values?alt=json',
