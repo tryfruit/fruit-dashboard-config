@@ -18,13 +18,17 @@ return array(
     'DEFAULT_FROM' => array('address' => 'hello@local.dev', 
                             'name'    => 'Local Development'),
 
-    /* Google Analytics and event tracking */
+    /* Google Analytics tracking */
     'GOOGLE_TRACKING_CODE' => 'UA-XXXXXXXX-XX',
     
-    /* Intercom IO tracking app ID */
+    /* Intercom IO tracking */
     'INTERCOM_APP_ID'  => 'a1b2c3d4',
-    'INTERCOM_API_KEY' => 'the-intercom-api-secret-key-here',
+    'INTERCOM_API_KEY' => 'your-intercom-api-key-here',
 
+	/* Customer IO tracking */
+    'CUSTOMER_IO_SITE_ID'  => 'your-customer-io-site-id-here',
+    'CUSTOMER_IO_API_KEY'  => 'your-customer-io-api-key-here',
+	
     /* Mixpanel token */
     'MIXPANEL_TOKEN' => 'your-mixpanel-token-here',
 
@@ -49,6 +53,11 @@ return array(
     /* Google Oauth connection */
     'GOOGLE_SECRET_JSON'    => 'app/config/local/client_secret.json',
 
+	/* Facebook Oauth connection */
+    'FACEBOOK_APP_ID'                => 'your-facebook-app-id-here',
+    'FACEBOOK_APP_SECRET'            => 'your-facebook-app-secret-here',
+    'FACEBOOK_DEFAULT_GRAPH_VERSION' => 'your-facebook-graph-version-here',
+	
     /* Quote widget | Quote feed */
     'QUOTE_FEED_CONNECT_URI'                        => 'http://spreadsheets.google.com/feeds/list/',
     'QUOTE_FEED_SPREADSHEET_EN_INSPIRATIONAL_URI'   => '<spreadsheet-token>/<worksheet-id>/public/values?alt=json',
