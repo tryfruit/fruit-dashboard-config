@@ -40,6 +40,9 @@ return array(
     'BRAINTREE_CLIENTSIDE_KEY'  => 'your-braintree-cse-key',
     'BRAINTREE_PREMIUM_PLAN_ID' => 'your-braintree-premium-plan-id',
 
+	/* Trial functionality enabled */
+    'TRIAL_ENABLED'     => false,
+
     /* Stripe Oauth connection */
     'STRIPE_CONNECT_URI'      => 'https://connect.stripe.com/oauth/authorize',
     'STRIPE_ACCESS_TOKEN_URI' => 'https://connect.stripe.com/oauth/token',
