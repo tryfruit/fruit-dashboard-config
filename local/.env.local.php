@@ -38,7 +38,8 @@ return array(
     'BRAINTREE_PUBLIC_KEY'      => 'your-braintree-public-key',
     'BRAINTREE_PRIVATE_KEY'     => 'your-braintree-private-key',
     'BRAINTREE_CLIENTSIDE_KEY'  => 'your-braintree-cse-key',
-    'BRAINTREE_PREMIUM_PLAN_ID' => 'your-braintree-premium-plan-id',
+    'BRAINTREE_PREMIUM_PLAN_ID'    => 'your-braintree-premium-plan-id',
+	'BRAINTREE_PREMIUM_PLAN_PRICE' => 19.99,
 
 	/* Trial functionality enabled */
     'TRIAL_ENABLED'     => false,
