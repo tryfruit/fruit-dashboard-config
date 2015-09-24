@@ -69,4 +69,8 @@ return array(
     'QUOTE_FEED_SPREADSHEET_EN_INSPIRATIONAL_URI'   => '<spreadsheet-token>/<worksheet-id>/public/values?alt=json',
     'QUOTE_FEED_SPREADSHEET_EN_FUNNY_URI'           => '<spreadsheet-token>/<worksheet-id>/public/values?alt=json',
     'QUOTE_FEED_SPREADSHEET_EN_FIRST_LINE_URI'      => '<spreadsheet-token>/<worksheet-id>/public/values?alt=json',
+	
+	/* WKHTMLTOPDF and WKHTMLTOIMAGE binary location */
+    'WKHTMLTOPDF_BINARY_LOCATION'   => '/usr/local/bin/wkhtmltopdf',
+    'WKHTMLTOIMAGE_BINARY_LOCATION' => '/usr/local/bin/wkhtmltoimage',
 );
