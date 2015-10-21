@@ -31,6 +31,9 @@ return array(
 	
     /* Mixpanel token */
     'MIXPANEL_TOKEN' => 'your-mixpanel-token-here',
+	
+	/* Kissmetrics tracking */
+    'KISSMETRICS_KEY' => 'your-kissmetrics-key-here',
 
     /* Braintree payment */    
     'BRAINTREE_ENVIRONMENT'    => 'sandbox',
